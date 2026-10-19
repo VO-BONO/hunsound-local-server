@@ -1,0 +1,6 @@
+# 작업 파일은 저장소에 올리지 않음
+uploads/
+jobs/
+*.wav
+*.mp3
+*.zip

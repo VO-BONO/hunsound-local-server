@@ -1,0 +1,15 @@
+# HUN STUDIO 로컬 서버 — 필수 의존성
+# 설치: pip install -r requirements.txt
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9
+
+# ── 선택 의존성 (필요한 기능만 추가 설치) ──
+# AI 스템 분리 (htdemucs_6s, 6종: vocals/drums/bass/other/guitar/piano)
+# demucs>=4.0
+# 음정 분석 (피치 커브 추출)
+# librosa>=0.10
+#
+# 참고: ffmpeg은 pip가 아니라 OS 패키지로 설치합니다.
+#   Mac:     brew install ffmpeg
+#   Windows: https://www.gyan.dev/ffmpeg/builds/  (PATH에 추가)
